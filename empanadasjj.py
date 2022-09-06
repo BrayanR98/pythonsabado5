@@ -14,8 +14,8 @@ while opcion!=0:
    if opcion==1:
        empanada={}
        empanada['sabor']=input("Escriba el sabor de la empanada: ") 
-       for n in range(3):
-           empanada['ingredientes']=[]
+       empanada['ingredientes']=[]
+       for n in range(3):    
            empanada['ingredientes'].append(input("Digite un ingrediente: "))
        empanada['Precio-fabricante']=int(input("Digite el precio de fabricante: "))
        empanada["Precio-venta"]=int(input("digite el precio de la empanda: "))
